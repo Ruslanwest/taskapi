@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+post_resource,,,,12-02-2024 16:27:42,12-02-2024 16:27:49,7.034s,PASSED
+,,,,,,,
+Test Cases/post_resource,,,,12-02-2024 16:27:43,12-02-2024 16:27:49,6.569s,PASSED
+"sendRequestAndVerify(findTestObject(""post_resource""))",,,,12-02-2024 16:27:43,12-02-2024 16:27:49,6.020s,PASSED

@@ -1,0 +1,12 @@
+1
+00:00:00,399 --> 00:00:06,266
+1. sendRequestAndVerify(findTestObject("delete_post", ["id":"1"]))
+
+2
+00:00:06,294 --> 00:00:06,306
+1. request = getInstance().getCurrentRequest()
+
+3
+00:00:06,316 --> 00:00:06,496
+5. response = getInstance().getCurrentResponse()
+

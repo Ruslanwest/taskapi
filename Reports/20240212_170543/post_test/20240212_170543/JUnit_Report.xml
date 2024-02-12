@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="post_test" time="15.577" tests="3" failures="0" errors="0">
+   <testsuite name="post_test" tests="3" failures="0" errors="0" time="15.577" skipped="0" timestamp="12-02-2024T17:05:56" hostname="BRI - LAPTOP-GLHGBC14" id="Test Suites/post_test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\BFLP\\Bootcamp LPPI\\taskapi\\Reports\\20240212_170543\\post_test\\20240212_170543"/>
+         <property name="logFiles" value="D:\\BFLP\\Bootcamp LPPI\\taskapi\\Reports\\20240212_170543\\post_test\\20240212_170543\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BRI - LAPTOP-GLHGBC14"/>
+         <property name="hostAddress" value="172.16.213.223"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+      </properties>
+      <testcase name="Test Cases/delete_post" time="9.269" classname="Test Cases/delete_post" status="PASSED">
+         <system-out><![CDATA[12-02-2024T17:05:56 - [TEST_CASE][PASSED] - Test Cases/delete_post: Test Cases/delete_post
+
+12-02-2024T17:05:57 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("delete_post", ["id":"1"])): Send request and verify the response successfully
+
+12-02-2024T17:06:02 - [MESSAGE][INFO] - HAR: D:\BFLP\Bootcamp LPPI\taskapi\Reports\20240212_170543\post_test\20240212_170543\requests\main\0.har
+
+12-02-2024T17:06:03 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-02-2024T17:06:03 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-02-2024T17:06:03 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-02-2024T17:06:03 - [MESSAGE][PASSED] - Verify response successfully
+
+12-02-2024T17:06:03 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-02-2024T17:06:03 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+12-02-2024T17:06:05 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/delete_post' .
+
+12-02-2024T17:06:05 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/delete_post' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/get_post" time="2.858" classname="Test Cases/get_post" status="PASSED">
+         <system-out><![CDATA[12-02-2024T17:06:05 - [TEST_CASE][PASSED] - Test Cases/get_post: Test Cases/get_post
+
+12-02-2024T17:06:06 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("get_post", ["id":"1"])): Send request and verify the response successfully
+
+12-02-2024T17:06:06 - [MESSAGE][INFO] - HAR: D:\BFLP\Bootcamp LPPI\taskapi\Reports\20240212_170543\post_test\20240212_170543\requests\main\1.har
+
+12-02-2024T17:06:06 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-02-2024T17:06:06 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-02-2024T17:06:06 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-02-2024T17:06:06 - [MESSAGE][PASSED] - Verify response successfully
+
+12-02-2024T17:06:06 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-02-2024T17:06:06 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+12-02-2024T17:06:08 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/get_post' .
+
+12-02-2024T17:06:08 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/get_post' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/post_resource" time="3.02" classname="Test Cases/post_resource" status="PASSED">
+         <system-out><![CDATA[12-02-2024T17:06:08 - [TEST_CASE][PASSED] - Test Cases/post_resource: Test Cases/post_resource
+
+12-02-2024T17:06:09 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("post_resource")): Send request and verify the response successfully
+
+12-02-2024T17:06:09 - [MESSAGE][INFO] - HAR: D:\BFLP\Bootcamp LPPI\taskapi\Reports\20240212_170543\post_test\20240212_170543\requests\main\2.har
+
+12-02-2024T17:06:09 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-02-2024T17:06:09 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-02-2024T17:06:09 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-02-2024T17:06:09 - [MESSAGE][PASSED] - Verify response successfully
+
+12-02-2024T17:06:09 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-02-2024T17:06:09 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+12-02-2024T17:06:11 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/post_resource' .
+
+12-02-2024T17:06:11 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/post_resource' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T17:05:56 - [TEST_SUITE][PASSED] - post_test: Test Cases/post_resource]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
