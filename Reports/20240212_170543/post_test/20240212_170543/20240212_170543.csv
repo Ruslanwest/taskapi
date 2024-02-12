@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+post_test,,,,12-02-2024 17:05:56,12-02-2024 17:06:11,15.577s,PASSED
+,,,,,,,
+Test Cases/delete_post,,,,12-02-2024 17:05:56,12-02-2024 17:06:05,9.269s,PASSED
+"sendRequestAndVerify(findTestObject(""delete_post"", [""id"":""1""]))",,,,12-02-2024 17:05:57,12-02-2024 17:06:03,6.075s,PASSED
+Video,,,,12-02-2024 17:06:05,12-02-2024 17:06:05,0.004s,PASSED
+,,,,,,,
+Test Cases/get_post,,,,12-02-2024 17:06:05,12-02-2024 17:06:08,2.858s,PASSED
+"sendRequestAndVerify(findTestObject(""get_post"", [""id"":""1""]))",,,,12-02-2024 17:06:06,12-02-2024 17:06:06,0.446s,PASSED
+Video,,,,12-02-2024 17:06:08,12-02-2024 17:06:08,0.001s,PASSED
+,,,,,,,
+Test Cases/post_resource,,,,12-02-2024 17:06:08,12-02-2024 17:06:11,3.020s,PASSED
+"sendRequestAndVerify(findTestObject(""post_resource""))",,,,12-02-2024 17:06:09,12-02-2024 17:06:09,0.715s,PASSED
+Video,,,,12-02-2024 17:06:11,12-02-2024 17:06:11,0.002s,PASSED
